@@ -1,10 +1,27 @@
 // Please see https://dash.applovin.com/documentation/mediation/defold/mediation-adapters/android for integrating mediated networks.
 // Repos
+// repositories {
+//     google()
+//     mavenCentral()
+// }
+
+// dependencies {
+//     implementation 'com.applovin:applovin-sdk:12.2.0'
+// }
+// Repos
+
 repositories {
     google()
     mavenCentral()
+    maven { url "https://cboost.jfrog.io/artifactory/chartboost-ads/" }
+    maven { url "https://android-sdk.is.com" }
 }
 
 dependencies {
-    implementation 'com.applovin:applovin-sdk:12.2.0'
+    implementation 'com.applovin.mediation:chartboost-adapter:+'
+    implementation 'com.google.android.gms:play-services-base:16.1.0'
+    implementation 'com.applovin.mediation:google-adapter:+'
+    implementation 'com.applovin.mediation:ironsource-adapter:+'
+    implementation 'com.applovin.mediation:facebook-adapter:+'
+    implementation 'com.applovin.mediation:unityads-adapter:+'
 }
