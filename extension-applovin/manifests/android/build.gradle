@@ -18,10 +18,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.applovin.mediation:chartboost-adapter:+'
+    implementation 'com.applovin:applovin-sdk:12.4.2'
+    implementation 'com.applovin.mediation:chartboost-adapter:9.7.0.0'
     implementation 'com.google.android.gms:play-services-base:16.1.0'
-    implementation 'com.applovin.mediation:google-adapter:+'
-    implementation 'com.applovin.mediation:ironsource-adapter:+'
-    implementation 'com.applovin.mediation:facebook-adapter:+'
-    implementation 'com.applovin.mediation:unityads-adapter:+'
+    implementation 'com.applovin.mediation:google-adapter:23.0.0.1'
+    implementation 'com.applovin.mediation:ironsource-adapter:8.0.0.0.0'
+    implementation 'com.applovin.mediation:facebook-adapter:6.17.0.0'
+    implementation 'com.applovin.mediation:unityads-adapter:4.10.0.0'
 }
